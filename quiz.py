@@ -1,40 +1,48 @@
+"""What microbe are you Quiz!"""
+
 import json
 import os
-import sys
-import math
 import string
 import numpy as np
 
-# Mapping answer choices to Greek letter groups
 ANSWER_OPTIONS = ["A", "B", "C", "D", "E"]
 
 
 def quiz():
+    """Load questions and run quiz questions. Compute which microbe fits
+    the answers best.
+    """
     questions = load_questions()
-    answers = run_quiz(questions)
+    answer = run_quiz(questions)
 
-    personalities = load_personalities()
-    microbe, personality = get_personality_matches(personalities, answers)
+    microbes = load_microbes()
+    microbe, microbe_dict = get_best_microbe_match(microbes, answer)
 
-    print_result(microbe, personality)
+    print_result(microbe, microbe_dict)
 
 
 def load_questions() -> dict:
-    # Questions and answer choices
+    """Load questions and answer options."""
+
     with open("config/questions.json", "r", encoding="utf-8") as f:
         questions = json.load(f)
 
     return questions
 
 
-def load_personalities() -> dict:
-    with open("config/personalities.json", "r", encoding="utf-8") as f:
-        personalities = json.load(f)
+def load_microbes() -> dict:
+    """Load microbes."""
 
-    return personalities
+    with open("config/microbes.json", "r", encoding="utf-8") as f:
+        microbes = json.load(f)
+
+    return microbes
 
 
-def run_quiz(personalities: dict) -> dict:
+def run_quiz(personality_questions: dict) -> dict:
+    """Run quiz and save answers in an array, summing questions for the
+    same personality trait.
+    """
     # Store answers
     answers = {}
 
@@ -42,74 +50,90 @@ def run_quiz(personalities: dict) -> dict:
     print("\nWelcome to the 'Which Microbe Are You?' Quiz!\n")
     question_nr = 0
 
-    for personality, questions in personalities.items():
-        personality_score = 0
+    for personality_trait, questions in personality_questions.items():
+        trait_score = 0
 
-        for question, choices in questions.items():
+        for question, options in questions.items():
             question_nr += 1
-            answer_options = [string.ascii_uppercase[i] for i in range(len(choices))]
+            answer_options = [
+                string.ascii_uppercase[i] for i in range(len(options))
+            ]
 
             clear()
             print(f"\n{question_nr}. {question}\n")
 
-            for i, choice in enumerate(choices):
+            for i, choice in enumerate(options):
                 print(f"{string.ascii_uppercase[i]}. {choice}")
 
             while True:
                 answer = (
-                    input(f"\nEnter your choice ({', '.join(answer_options)}): ")
+                    input(
+                        f"\nEnter your choice ({', '.join(answer_options)}): "
+                    )
                     .strip()
                     .upper()
                 )
 
                 if answer in answer_options:
-                    personality_score += answer_options.index(answer)
+                    trait_score += answer_options.index(answer)
                     break
                 else:
                     print(
                         f"Invalid input. Please enter: {', '.join(answer_options)}."
                     )
 
-        answers[personality] = personality_score
+        answers[personality_trait] = trait_score
 
     return answers
 
 
 def clear() -> None:
-    if os.name == 'nt':  # For Windows
-        os.system('cls')
+    """Clear console."""
+
+    if os.name == "nt":  # For Windows
+        os.system("cls")
     else:  # For Unix-based systems (Linux/macOS)
-        os.system('clear') 
+        os.system("clear")
 
 
-def get_personality_matches(personalities: dict, answers: dict) -> tuple[str, dict]:
+def get_best_microbe_match(
+    microbes: dict, answer: dict
+) -> tuple[str, dict]:
+    """Match answers to a microbe.
+
+    Answer is an array of six values, ranging from 0-6. The best matching
+    microbe is found by calculating the distance to each microbes answer
+    array and returning the closes one.
+    """
     # Convert answers to a NumPy array
-    answer_array = np.array(list(answers.values()))
-    
+    answer_array = np.array(list(answer.values()))
+
     # Convert all personality answer sets to a 2D NumPy array
-    personality_arrays = np.array([
-        list(p["answers"].values()) for p in personalities.values()
-    ])
-    
+    trait_arrays = np.array(
+        [list(p["answers"].values()) for p in microbes.values()]
+    )
+
     # Compute Euclidean distances
-    distances = np.linalg.norm(personality_arrays - answer_array, axis=1)
-    
+    distances = np.linalg.norm(trait_arrays - answer_array, axis=1)
+
     # Find the index of the closest personality
     closest_index = np.argmin(distances)
-    
+
     # Map back to the personality key
-    microbe = list(personalities.keys())[closest_index]
-    
-    return microbe, personalities[microbe]
+    microbe = list(microbes.keys())[closest_index]
+
+    return microbe, microbes[microbe]
 
 
-def print_result(microbe: str, personality: dict) -> None:
+def print_result(microbe: str, microbe_dict: dict) -> None:
+    """Print result to console."""
+
     clear()
 
     print("\nQuiz Complete!")
-    print(f"\n{microbe} - {personality['title']}\n")
-    print(f"{personality['personality']}\n")
-    print(f"{personality['frenemies']}\n")
+    print(f"\n{microbe} - {microbe_dict['title']}\n")
+    print(f"{microbe_dict['personality']}\n")
+    print(f"{microbe_dict['frenemies']}\n")
 
 
 if __name__ == "__main__":
