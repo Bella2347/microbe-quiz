@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Your Microbe Result</title>
+  <title>Microbe Quiz</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
-<body>
-  <h1>Your Microbe Is:</h1>
+<body style="background: {{ bg_color }};">
 
-  <h2>{{ microbe }} - {{ data.title }}</h2>
+  <div class="quiz-container">
+    <h2>{{ microbe }} - {{ data.title }}</h2>
 
-  <p>{{ data.personality }}</p>
-  <p>{{ data.frenemies }}</p>
+    <p>{{ data.personality }}</p>
+    <p>{{ data.frenemies }}</p>
 
-  <br>
-  <a href="/">Take the Quiz Again</a>
+    {% if data.wiki %}
+      <p class="wiki">{{ data.wiki }}</p>
+    {% endif %}
+
+    <a href="/">Take the Quiz Again</a>
+  </div>
+
 </body>
 </html>

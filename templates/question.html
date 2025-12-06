@@ -2,22 +2,36 @@
 <html>
 <head>
   <title>Microbe Quiz</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+  <script>
+    function autoSubmit() {
+      document.getElementById("quiz-form").submit();
+    }
+  </script>
 </head>
 <body>
-  <h2>Question {{ question_number }} of {{ total }}</h2>
 
-  <form method="POST">
-    <p>{{ question }}</p>
+  <div class="quiz-container">
+    <h2>Question {{ question_number }} of {{ total }}</h2>
 
-    {% for letter, option in options %}
-      <label>
-        <input type="radio" name="answer" value="{{ loop.index0 }}" required>
-        {{ letter }}. {{ option }}
-      </label><br>
-    {% endfor %}
+    <form id="quiz-form" method="POST">
+      <p>{{ question }}</p>
 
-    <br>
-    <button type="submit">Next</button>
-  </form>
+      {% for letter, option in options %}
+        <label class="option">
+          <input 
+            type="radio" 
+            name="answer" 
+            value="{{ loop.index0 }}" 
+            required 
+            onchange="autoSubmit()"
+          >
+          <strong>{{ letter }}.</strong> {{ option }}
+        </label>
+      {% endfor %}
+    </form>
+  </div>
+
 </body>
 </html>
