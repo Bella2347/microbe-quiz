@@ -4,8 +4,8 @@
         "personality": "You are extremely creative and thrive on deep cooperation with others. You’re not built for chaos or danger—instead, your strength comes from connection, harmony, and shining alongside partners. You do your best work when you’re part of a team.",
         "frenemies": "You absolutely adore Streptomyces coelicolor for their shared artistic sparkle and constantly invite SARS-CoV-2 to the party for the drama. You cannot stand Clostridium botulinum, whose deadly diva energy completely ruins your glow.",
         "answers": {
-            "Resilience": 2,
-            "Stealth": 0,
+            "Resilience": 3,
+            "Stealth": 3,
             "Chaos/Disruption": 0,
             "Creativity/Innovation": 6,
             "Teamwork/Sociability": 6,
@@ -17,11 +17,11 @@
         "personality": "You are highly stealthy and explosively chaotic, catching others off guard with how quickly situations can spiral around you. You don’t rely on creativity—your power comes from raw disruption and intense impact. When you act, things escalate fast.",
         "frenemies": "You and Salmonella are constant partners in crime, whispering chaos into existence. You secretly envy Streptomyces coelicolor, whose calm creativity feels like a personal attack on your messy energy.",
         "answers": {
-            "Resilience": 2,
-            "Stealth": 5,
+            "Resilience": 3,
+            "Stealth": 6,
             "Chaos/Disruption": 6,
             "Creativity/Innovation": 0,
-            "Teamwork/Sociability": 1,
+            "Teamwork/Sociability": 3,
             "Intensity/Danger": 6
         }
     },
@@ -30,12 +30,12 @@
         "personality": "You are sneaky, social, and built for chaos. You quietly spread before unleashing major disruption, often affecting many at once. You thrive in shared spaces and thrive on unpredictability and trouble.",
         "frenemies": "You LOVE starting outbreaks with Influenza and SARS-CoV-2 like it’s a global prank war. You roll your eyes at Deinococcus, whose invincible seriousness completely kills your chaotic vibe.",
         "answers": {
-            "Resilience": 2,
-            "Stealth": 4,
+            "Resilience": 3,
+            "Stealth": 6,
             "Chaos/Disruption": 6,
-            "Creativity/Innovation": 0,
-            "Teamwork/Sociability": 5,
-            "Intensity/Danger": 4
+            "Creativity/Innovation": 3,
+            "Teamwork/Sociability": 6,
+            "Intensity/Danger": 3
         }
     },
     "🌪️    Influenza": {
@@ -43,11 +43,11 @@
         "personality": "You are adaptive, disruptive, and highly mobile. You thrive on change, constantly reinventing yourself and spreading through social movement. Your power comes from flexibility, chaos, and your ability to stay one step ahead.",
         "frenemies": "You thrive on friendly rivalry with SARS-CoV-2 over who caused the bigger global meltdown this decade. You cannot stand Mycobacterium tuberculosis, whose slow-burn strategy feels painfully boring to you.",
         "answers": {
-            "Resilience": 2,
-            "Stealth": 4,
-            "Chaos/Disruption": 5,
-            "Creativity/Innovation": 4,
-            "Teamwork/Sociability": 4,
+            "Resilience": 3,
+            "Stealth": 3,
+            "Chaos/Disruption": 6,
+            "Creativity/Innovation": 6,
+            "Teamwork/Sociability": 3,
             "Intensity/Danger": 3
         }
     },
@@ -56,11 +56,11 @@
         "personality": "You are highly creative and quietly resilient, preferring innovation over destruction. You bring stability rather than chaos and work well with others without needing attention. Your strength lies in building powerful solutions, not tearing things down.",
         "frenemies": "You get along beautifully with E. coli and Vibrio fischeri, your fellow creators and collaborators. You are in a never-ending dramatic war with Staphylococcus aureus, who keeps undoing your hard antibiotic work out of spite.",
         "answers": {
-            "Resilience": 3,
-            "Stealth": 2,
+            "Resilience": 6,
+            "Stealth": 3,
             "Chaos/Disruption": 0,
             "Creativity/Innovation": 6,
-            "Teamwork/Sociability": 4,
+            "Teamwork/Sociability": 3,
             "Intensity/Danger": 0
         }
     },
@@ -69,12 +69,12 @@
         "personality": "You are adaptable, resilient, and extremely cooperative. You thrive in busy systems where teamwork and versatility matter most. You’re not terribly dangerous, but your influence is everywhere because of how reliably you function.",
         "frenemies": "You and Thermus aquaticus are the ultimate lab power couple, running science together like a factory. You secretly hate how Salmonella keeps ruining your public image at every imaginary food court.",
         "answers": {
-            "Resilience": 4,
-            "Stealth": 2,
-            "Chaos/Disruption": 2,
-            "Creativity/Innovation": 4,
+            "Resilience": 6,
+            "Stealth": 3,
+            "Chaos/Disruption": 3,
+            "Creativity/Innovation": 6,
             "Teamwork/Sociability": 6,
-            "Intensity/Danger": 1
+            "Intensity/Danger": 3
         }
     },
     "🔥    Staphylococcus aureus": {
@@ -82,12 +82,12 @@
         "personality": "You are tough, aggressive, and disruptive. You don’t rely on subtlety or creativity—you push forward through pressure and resistance. You’re difficult to stop and thrive in conflict-heavy environments.",
         "frenemies": "You hang out with Salmonella and Rabies like a menace trio that terrifies everyone else. You and Streptomyces coelicolor are bitter enemies locked in an eternal antibiotic-versus-resistance rivalry.",
         "answers": {
-            "Resilience": 5,
-            "Stealth": 2,
-            "Chaos/Disruption": 4,
+            "Resilience": 6,
+            "Stealth": 3,
+            "Chaos/Disruption": 6,
             "Creativity/Innovation": 0,
-            "Teamwork/Sociability": 1,
-            "Intensity/Danger": 5
+            "Teamwork/Sociability": 0,
+            "Intensity/Danger": 6
         }
     },
     "🐺    Rabies Virus": {
@@ -95,10 +95,10 @@
         "personality": "You are pure intensity and uncontrollable chaos. You act fast, hit hard, and offer no room for subtlety or teamwork. Once you’re unleashed, your impact is immediate, overwhelming, and devastating.",
         "frenemies": "You respect Clostridium botulinum purely for its lethal reputation and zero mercy energy. You despise HIV, whose quiet stealth feels cowardly compared to your dramatic all-out assault style.",
         "answers": {
-            "Resilience": 4,
-            "Stealth": 1,
+            "Resilience": 3,
+            "Stealth": 0,
             "Chaos/Disruption": 6,
-            "Creativity/Innovation": 0,
+            "Creativity/Innovation": 3,
             "Teamwork/Sociability": 0,
             "Intensity/Danger": 6
         }
@@ -108,10 +108,10 @@
         "personality": "You are highly dangerous and creatively lethal. You don’t work with others and don’t seek attention—but when you act, the consequences are extreme. Your power lies in precision, silence, and absolute potency.",
         "frenemies": "You tolerate Staphylococcus aureus and Rabies as fellow agents of destruction. You absolutely cannot stand bubbly overachievers like Vibrio fischeri, whose cheer feels offensive to your deadly elegance.",
         "answers": {
-            "Resilience": 4,
-            "Stealth": 2,
+            "Resilience": 3,
+            "Stealth": 3,
             "Chaos/Disruption": 6,
-            "Creativity/Innovation": 5,
+            "Creativity/Innovation": 6,
             "Teamwork/Sociability": 0,
             "Intensity/Danger": 6
         }
@@ -121,12 +121,12 @@
         "personality": "You are highly social, adaptable, and massively disruptive. You spread efficiently through cooperation and connection, reshaping entire systems around you. You may not always be the most lethal individually, but your scale makes you incredibly powerful.",
         "frenemies": "You bond instantly with Influenza over shared pandemic fame and chaos. You feel deeply threatened by HIV, who stays dangerous without ever needing the spotlight.",
         "answers": {
-            "Resilience": 4,
-            "Stealth": 2,
+            "Resilience": 3,
+            "Stealth": 3,
             "Chaos/Disruption": 6,
-            "Creativity/Innovation": 4,
+            "Creativity/Innovation": 3,
             "Teamwork/Sociability": 6,
-            "Intensity/Danger": 4
+            "Intensity/Danger": 3
         }
     },
     "🕶️    HIV": {
@@ -134,9 +134,9 @@
         "personality": "You are exceptionally stealthy, deeply creative, and extremely dangerous. You specialize in long-term infiltration rather than loud destruction. You are patient, strategic, and among the most sophisticated disruptors in existence.",
         "frenemies": "You have a dark, powerful alliance with Mycobacterium tuberculosis, forming one of the most feared duos in microbial history. You look down on Rabies as reckless and emotionally unstable.",
         "answers": {
-            "Resilience": 4,
+            "Resilience": 3,
             "Stealth": 6,
-            "Chaos/Disruption": 4,
+            "Chaos/Disruption": 6,
             "Creativity/Innovation": 6,
             "Teamwork/Sociability": 3,
             "Intensity/Danger": 6
@@ -150,7 +150,7 @@
             "Resilience": 6,
             "Stealth": 0,
             "Chaos/Disruption": 0,
-            "Creativity/Innovation": 1,
+            "Creativity/Innovation": 3,
             "Teamwork/Sociability": 0,
             "Intensity/Danger": 0
         }
@@ -160,10 +160,10 @@
         "personality": "You are built for extreme conditions where almost nothing else survives. You aren’t social or chaotic, but you possess valuable innovative power. You thrive under pressure and function best in environments that would destroy others.",
         "frenemies": "You and E. coli are legendary scientific collaborators behind the scenes. You aggressively ignore Influenza, whose constant mutations feel messy and undisciplined to you.",
         "answers": {
-            "Resilience": 5,
-            "Stealth": 0,
-            "Chaos/Disruption": 1,
-            "Creativity/Innovation": 5,
+            "Resilience": 6,
+            "Stealth": 3,
+            "Chaos/Disruption": 0,
+            "Creativity/Innovation": 6,
             "Teamwork/Sociability": 0,
             "Intensity/Danger": 0
         }
@@ -173,12 +173,12 @@
         "personality": "You are highly resilient and technically precise. You operate alone, relying on efficiency rather than chaos or cooperation. You are controlled, focused, and built to execute with mechanical precision.",
         "frenemies": "You have a tense, professional rivalry with E. coli, half enemy, half lab partner. You absolutely refuse to work with Salmonella, whose chaos offends your sense of order.",
         "answers": {
-            "Resilience": 4,
-            "Stealth": 1,
-            "Chaos/Disruption": 2,
-            "Creativity/Innovation": 4,
+            "Resilience": 6,
+            "Stealth": 3,
+            "Chaos/Disruption": 0,
+            "Creativity/Innovation": 3,
             "Teamwork/Sociability": 0,
-            "Intensity/Danger": 1
+            "Intensity/Danger": 3
         }
     },
     "♟️    Mycobacterium tuberculosis": {
@@ -188,9 +188,9 @@
         "answers": {
             "Resilience": 6,
             "Stealth": 6,
-            "Chaos/Disruption": 4,
-            "Creativity/Innovation": 2,
-            "Teamwork/Sociability": 2,
+            "Chaos/Disruption": 3,
+            "Creativity/Innovation": 3,
+            "Teamwork/Sociability": 3,
             "Intensity/Danger": 6
         }
     }
