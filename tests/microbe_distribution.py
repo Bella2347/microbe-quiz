@@ -30,4 +30,4 @@ for answer_array in all_answer_arrays:
     matches[microbe] += 1
 
 for match, count in matches.items():
-    print(f"{match}: {count} ({count/len(all_answer_arrays)*100:.2f} %)")
+    print(f"{match}: {count/len(all_answer_arrays)*100:.2f} % ({count})")
