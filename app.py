@@ -72,5 +72,34 @@ def result():
     )
 
 
+@app.route("/preview")
+def preview_microbes():
+    """Preview all microbes on the result page one by one."""
+    # Load microbes
+    microbes = load_microbes()
+
+    # Optionally, you can pick a microbe by query parameter ?microbe=…
+    microbe_names = list(microbes.keys())
+    microbe_index = int(request.args.get("index", 0)) % len(microbe_names)
+    microbe = microbe_names[microbe_index]
+    microbe_dict = microbes[microbe]
+
+    # Background color or gradient
+    bg_color = microbe_dict.get("color", "#ffffff")
+
+    # Links to next/prev microbe
+    next_index = (microbe_index + 1) % len(microbe_names)
+    prev_index = (microbe_index - 1) % len(microbe_names)
+
+    return render_template(
+        "result.html",
+        microbe=microbe,
+        data=microbe_dict,
+        bg_color=bg_color,
+        next_url=url_for("preview_microbes", index=next_index),
+        prev_url=url_for("preview_microbes", index=prev_index),
+    )
+
+
 if __name__ == "__main__":
     app.run(debug=True)
