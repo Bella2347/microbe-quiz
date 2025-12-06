@@ -1,0 +1,86 @@
+{
+    "Resilience": {
+        "When the environment turns hostile (heat, cold, chemicals, radiation), what do you do?": [
+            "I break down almost immediately.",
+            "I struggle, but I sometimes pull through.",
+            "I usually survive, though I take some damage.",
+            "I barely notice—it takes extreme force to take me out."
+        ],
+        "If someone tries to wipe you out repeatedly, how do you respond?": [
+            "One good hit is usually enough.",
+            "I might survive one or two attempts.",
+            "I’m known for bouncing back.",
+            "I’m infamous for being nearly impossible to destroy."
+        ]
+    },
+    "Stealth": {
+        "When you first arrive at a friend's house, how obvious are you?": [
+            "Everyone notices me right away.",
+            "I cause mild, early signs.",
+            "I stay hidden for quite a while.",
+            "I can remain undetected for months or even years."
+        ],
+        "What’s your preferred way of operating?": [
+            "Loud, fast, and impossible to miss.",
+            "A mix of subtlety and flash.",
+            "Quiet and sneaky most of the time.",
+            "Almost completely silent and unseen."
+        ]
+    },
+    "Chaos/Disruption": {
+        "When you show up to a party, what usually happens?": [
+            "Very little changes.",
+            "Small problems start to appear.",
+            "Things get seriously disrupted.",
+            "Everything spirals into chaos fast."
+        ],
+        "How predictable is your behavior?": [
+            "I’m very consistent and routine.",
+            "I surprise others now and then.",
+            "I’m often unpredictable.",
+            "No one ever knows what I’ll do next."
+        ]
+    },
+    "Creativity/Innovation": {
+        "How unique are your abilities?": [
+            "I’m pretty basic—nothing flashy.",
+            "I’ve got a few interesting tricks.",
+            "I’m known for specialized talents.",
+            "My abilities are truly one-of-a-kind."
+        ],
+        "How often do others study or use you for your special features?": [
+            "Almost never.",
+            "Occasionally.",
+            "Frequently.",
+            "Constantly—I’m famous for what I can do."
+        ]
+    },
+    "Teamwork/Sociability": {
+        "How do you feel about working with others?": [
+            "I mostly operate solo.",
+            "I sometimes collaborate.",
+            "I often depend on group interactions.",
+            "I thrive on partnerships and cooperation."
+        ],
+        "How important are hosts, communities, or partners to your success?": [
+            "I don’t really need anyone.",
+            "I benefit a little from others.",
+            "I strongly depend on relationships.",
+            "I can’t function without teamwork or a host."
+        ]
+    },
+    "Intensity/Danger": {
+        "How dangerous are you considered to be?": [
+            "Mostly harmless.",
+            "Mildly risky.",
+            "Very dangerous.",
+            "Among the most dangerous known."
+        ],
+        "When you attack, the impact is…": [
+            "Easy to control and limited.",
+            "Noticeable but manageable.",
+            "Severe and difficult to stop.",
+            "Devastating and overwhelming."
+        ]
+    }
+}
