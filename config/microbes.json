@@ -1,6 +1,7 @@
 {
-    "✨    Vibrio fischeri": {
+    "Vibrio fischeri": {
         "title": "The Glowing Socialite",
+        "emoji": "✨",
         "personality": "You are extremely creative and thrive on deep cooperation with others. You’re not built for chaos or danger—instead, your strength comes from connection, harmony, and shining alongside partners. You do your best work when you’re part of a team.",
         "frenemies": "You absolutely adore Streptomyces coelicolor for their shared artistic sparkle and constantly invite SARS-CoV-2 to the party for the drama. You cannot stand Clostridium botulinum, whose deadly diva energy completely ruins your glow.",
         "answers": {
@@ -14,8 +15,9 @@
         "wiki": "Vibrio fischeri is a marine bacterium known for its bioluminescence. It forms symbiotic relationships with certain squid and fish, using light to help its hosts avoid predators at night.",
         "color": "linear-gradient(135deg, #7FFFD4, #2BC0E4)"
     },
-    "🩸    Streptococcus pyogenes": {
+    "Streptococcus pyogenes": {
         "title": "The Sneaky Troublemaker",
+        "emoji": "🐍",
         "personality": "You are highly stealthy and explosively chaotic, catching others off guard with how quickly situations can spiral around you. You don’t rely on creativity—your power comes from raw disruption and intense impact. When you act, things escalate fast.",
         "frenemies": "You and Salmonella are constant partners in crime, whispering chaos into existence. You secretly envy Streptomyces coelicolor, whose calm creativity feels like a personal attack on your messy energy.",
         "answers": {
@@ -29,8 +31,9 @@
         "wiki": "Streptococcus pyogenes is a bacterium that can cause strep throat, skin infections, and more severe diseases like rheumatic fever. It is highly contagious and spreads through droplets from coughing or sneezing.",
         "color": "linear-gradient(135deg, #8B0000, #FF416C)"
     },
-    "🍗    Salmonella": {
+    "Salmonella": {
         "title": "The Chaos Gremlin",
+        "emoji": "👹",
         "personality": "You are sneaky, social, and built for chaos. You quietly spread before unleashing major disruption, often affecting many at once. You thrive in shared spaces and thrive on unpredictability and trouble.",
         "frenemies": "You LOVE starting outbreaks with Influenza and SARS-CoV-2 like it’s a global prank war. You roll your eyes at Deinococcus, whose invincible seriousness completely kills your chaotic vibe.",
         "answers": {
@@ -44,8 +47,9 @@
         "wiki": "Salmonella is a common bacterial pathogen that causes food poisoning. It can contaminate meat, eggs, and produce, leading to symptoms such as diarrhea, fever, and abdominal cramps.",
         "color": "linear-gradient(135deg, #FFB347, #FFCC33)"
     },
-    "🌪️    Influenza": {
+    "Influenza": {
         "title": "The Shape-Shifting Trickster",
+        "emoji": "🎭",
         "personality": "You are adaptive, disruptive, and highly mobile. You thrive on change, constantly reinventing yourself and spreading through social movement. Your power comes from flexibility, chaos, and your ability to stay one step ahead.",
         "frenemies": "You thrive on friendly rivalry with SARS-CoV-2 over who caused the bigger global meltdown this decade. You cannot stand Mycobacterium tuberculosis, whose slow-burn strategy feels painfully boring to you.",
         "answers": {
@@ -59,8 +63,9 @@
         "wiki": "Influenza, or flu, is a contagious respiratory virus causing fever, cough, and body aches. It mutates rapidly, which is why yearly vaccination is recommended.",
         "color": "linear-gradient(135deg, #B0E0E6, #74ebd5)"
     },
-    "🎨    Streptomyces coelicolor": {
+    "Streptomyces coelicolor": {
         "title": "The Artistic Alchemist",
+        "emoji": "🎨",
         "personality": "You are highly creative and quietly resilient, preferring innovation over destruction. You bring stability rather than chaos and work well with others without needing attention. Your strength lies in building powerful solutions, not tearing things down.",
         "frenemies": "You get along beautifully with E. coli and Vibrio fischeri, your fellow creators and collaborators. You are in a never-ending dramatic war with Staphylococcus aureus, who keeps undoing your hard antibiotic work out of spite.",
         "answers": {
@@ -74,8 +79,9 @@
         "wiki": "Streptomyces coelicolor is a soil-dwelling bacterium famous for producing antibiotics. It has a complex lifecycle and contributes to decomposing organic material in soil.",
         "color": "linear-gradient(135deg, #C39BD3, #8E44AD)"
     },
-    "🧰    Escherichia coli (E. coli)": {
+    "Escherichia coli (E. coli)": {
         "title": "The Busy Engineer",
+        "emoji": "⚙️",
         "personality": "You are adaptable, resilient, and extremely cooperative. You thrive in busy systems where teamwork and versatility matter most. You’re not terribly dangerous, but your influence is everywhere because of how reliably you function.",
         "frenemies": "You and Thermus aquaticus are the ultimate lab power couple, running science together like a factory. You secretly hate how Salmonella keeps ruining your public image at every imaginary food court.",
         "answers": {
@@ -89,8 +95,9 @@
         "wiki": "Escherichia coli is a bacterium commonly found in the intestines of humans and animals. While many strains are harmless, some can cause foodborne illness or urinary tract infections.",
         "color": "linear-gradient(135deg, #AED6F1, #5DADE2)"
     },
-    "🔥    Staphylococcus aureus": {
+    "Staphylococcus aureus": {
         "title": "The Tough Gang Leader",
+        "emoji": "💪",
         "personality": "You are tough, aggressive, and disruptive. You don’t rely on subtlety or creativity—you push forward through pressure and resistance. You’re difficult to stop and thrive in conflict-heavy environments.",
         "frenemies": "You hang out with Salmonella and Rabies like a menace trio that terrifies everyone else. You and Streptomyces coelicolor are bitter enemies locked in an eternal antibiotic-versus-resistance rivalry.",
         "answers": {
@@ -104,8 +111,9 @@
         "wiki": "Staphylococcus aureus is a bacterium that can cause skin infections, abscesses, and more severe conditions like pneumonia or sepsis. Some strains are resistant to antibiotics (MRSA).",
         "color": "linear-gradient(135deg, #E74C3C, #C0392B)"
     },
-    "🐺    Rabies Virus": {
+    "Rabies Virus": {
         "title": "The Wild Berserker",
+        "emoji": "🐺",
         "personality": "You are pure intensity and uncontrollable chaos. You act fast, hit hard, and offer no room for subtlety or teamwork. Once you’re unleashed, your impact is immediate, overwhelming, and devastating.",
         "frenemies": "You respect Clostridium botulinum purely for its lethal reputation and zero mercy energy. You despise HIV, whose quiet stealth feels cowardly compared to your dramatic all-out assault style.",
         "answers": {
@@ -119,8 +127,9 @@
         "wiki": "Rabies virus is a neurotropic virus that causes fatal encephalitis in mammals. It is usually transmitted through bites from infected animals.",
         "color": "linear-gradient(135deg, #2C2C2C, #000000)"
     },
-    "💄    Clostridium botulinum": {
+    "Clostridium botulinum": {
         "title": "The Deadly Diva",
+        "emoji": "💋",
         "personality": "You are highly dangerous and creatively lethal. You don’t work with others and don’t seek attention—but when you act, the consequences are extreme. Your power lies in precision, silence, and absolute potency.",
         "frenemies": "You tolerate Staphylococcus aureus and Rabies as fellow agents of destruction. You absolutely cannot stand bubbly overachievers like Vibrio fischeri, whose cheer feels offensive to your deadly elegance.",
         "answers": {
@@ -134,8 +143,9 @@
         "wiki": "Clostridium botulinum is a bacterium that produces botulinum toxin, one of the most potent toxins known. It causes botulism, leading to paralysis if ingested or inhaled.",
         "color": "linear-gradient(135deg, #8E44AD, #512E5F)"
     },
-    "🌍    SARS-CoV-2": {
+    "SARS-CoV-2": {
         "title": "The Unwanted Superstar",
+        "emoji": "🌟",
         "personality": "You are highly social, adaptable, and massively disruptive. You spread efficiently through cooperation and connection, reshaping entire systems around you. You may not always be the most lethal individually, but your scale makes you incredibly powerful.",
         "frenemies": "You bond instantly with Influenza over shared pandemic fame and chaos. You feel deeply threatened by HIV, who stays dangerous without ever needing the spotlight.",
         "answers": {
@@ -149,8 +159,9 @@
         "wiki": "SARS-CoV-2 is the virus responsible for COVID-19, a respiratory illness. It spreads rapidly through droplets and aerosols and can range from mild to severe disease.",
         "color": "linear-gradient(135deg, #F4D03F, #F39C12)"
     },
-    "🕶️    HIV": {
+    "HIV": {
         "title": "The Master Infiltrator",
+        "emoji": "🕵️‍♂️",
         "personality": "You are exceptionally stealthy, deeply creative, and extremely dangerous. You specialize in long-term infiltration rather than loud destruction. You are patient, strategic, and among the most sophisticated disruptors in existence.",
         "frenemies": "You have a dark, powerful alliance with Mycobacterium tuberculosis, forming one of the most feared duos in microbial history. You look down on Rabies as reckless and emotionally unstable.",
         "answers": {
@@ -164,8 +175,9 @@
         "wiki": "Human Immunodeficiency Virus (HIV) attacks the immune system and can lead to AIDS if untreated. It spreads through blood, sexual contact, and from mother to child during birth or breastfeeding.",
         "color": "linear-gradient(135deg, #34495E, #1C2833)"
     },
-    "🛡️    Deinococcus radiodurans": {
-        "title": "",
+    "Deinococcus radiodurans": {
+        "title": "The Indestructible Survivor",
+        "emoji": "🛡️",
         "personality": "You are defined almost entirely by your unbelievable resilience. You don’t rely on stealth, chaos, or teamwork—you simply endure anything thrown at you. You are quiet, steady, and nearly impossible to break.",
         "frenemies": "You earn silent respect from Thermus aquaticus and Bacteriophage T4 as a fellow unkillable force. You are deeply unimpressed by Salmonella’s constant attempts at drama.",
         "answers": {
@@ -179,8 +191,9 @@
         "wiki": "Deinococcus radiodurans is a bacterium renowned for its extreme resistance to radiation and environmental stress. It can survive conditions that would kill most other organisms.",
         "color": "linear-gradient(135deg, #27AE60, #145A32)"
     },
-    "🌋    Thermus aquaticus": {
+    "Thermus aquaticus": {
         "title": "The Hothead Innovator",
+        "emoji": "🌋",
         "personality": "You are built for extreme conditions where almost nothing else survives. You aren’t social or chaotic, but you possess valuable innovative power. You thrive under pressure and function best in environments that would destroy others.",
         "frenemies": "You and E. coli are legendary scientific collaborators behind the scenes. You aggressively ignore Influenza, whose constant mutations feel messy and undisciplined to you.",
         "answers": {
@@ -194,8 +207,9 @@
         "wiki": "Thermus aquaticus is a heat-loving bacterium found in hot springs. Its enzymes, especially Taq polymerase, are widely used in PCR to amplify DNA.",
         "color": "linear-gradient(135deg, #E67E22, #AF601A)"
     },
-    "🎯    Bacteriophage T4": {
+    "Bacteriophage T4": {
         "title": "The Alien Warrior",
+        "emoji": "👽",
         "personality": "You are highly resilient and technically precise. You operate alone, relying on efficiency rather than chaos or cooperation. You are controlled, focused, and built to execute with mechanical precision.",
         "frenemies": "You have a tense, professional rivalry with E. coli, half enemy, half lab partner. You absolutely refuse to work with Salmonella, whose chaos offends your sense of order.",
         "answers": {
@@ -211,6 +225,7 @@
     },
     "♟️    Mycobacterium tuberculosis": {
         "title": "The Patient Strategist",
+        "emoji": "",
         "personality": "You are exceptionally resilient, incredibly stealthy, and intensely dangerous. You play the long game, spreading quietly and disrupting slowly over time. You are patient, calculating, and nearly impossible to fully eliminate.",
         "frenemies": "You form a terrifying strategic alliance with HIV, quietly reshaping entire systems together. You find Influenza’s flashy chaos childish and beneath your calculated control.",
         "answers": {
