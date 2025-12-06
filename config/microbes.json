@@ -10,7 +10,9 @@
             "Creativity/Innovation": 6,
             "Teamwork/Sociability": 6,
             "Intensity/Danger": 0
-        }
+        },
+        "wiki": "Vibrio fischeri is a marine bacterium known for its bioluminescence. It forms symbiotic relationships with certain squid and fish, using light to help its hosts avoid predators at night.",
+        "color": "linear-gradient(135deg, #7FFFD4, #2BC0E4)"
     },
     "🩸    Streptococcus pyogenes": {
         "title": "The Sneaky Troublemaker",
@@ -23,7 +25,9 @@
             "Creativity/Innovation": 0,
             "Teamwork/Sociability": 3,
             "Intensity/Danger": 6
-        }
+        },
+        "wiki": "Streptococcus pyogenes is a bacterium that can cause strep throat, skin infections, and more severe diseases like rheumatic fever. It is highly contagious and spreads through droplets from coughing or sneezing.",
+        "color": "linear-gradient(135deg, #8B0000, #FF416C)"
     },
     "🍗    Salmonella": {
         "title": "The Chaos Gremlin",
@@ -36,7 +40,9 @@
             "Creativity/Innovation": 3,
             "Teamwork/Sociability": 6,
             "Intensity/Danger": 3
-        }
+        },
+        "wiki": "Salmonella is a common bacterial pathogen that causes food poisoning. It can contaminate meat, eggs, and produce, leading to symptoms such as diarrhea, fever, and abdominal cramps.",
+        "color": "linear-gradient(135deg, #FFB347, #FFCC33)"
     },
     "🌪️    Influenza": {
         "title": "The Shape-Shifting Trickster",
@@ -49,7 +55,9 @@
             "Creativity/Innovation": 6,
             "Teamwork/Sociability": 3,
             "Intensity/Danger": 3
-        }
+        },
+        "wiki": "Influenza, or flu, is a contagious respiratory virus causing fever, cough, and body aches. It mutates rapidly, which is why yearly vaccination is recommended.",
+        "color": "linear-gradient(135deg, #B0E0E6, #74ebd5)"
     },
     "🎨    Streptomyces coelicolor": {
         "title": "The Artistic Alchemist",
@@ -62,7 +70,9 @@
             "Creativity/Innovation": 6,
             "Teamwork/Sociability": 3,
             "Intensity/Danger": 0
-        }
+        },
+        "wiki": "Streptomyces coelicolor is a soil-dwelling bacterium famous for producing antibiotics. It has a complex lifecycle and contributes to decomposing organic material in soil.",
+        "color": "linear-gradient(135deg, #C39BD3, #8E44AD)"
     },
     "🧰    Escherichia coli (E. coli)": {
         "title": "The Busy Engineer",
@@ -75,7 +85,9 @@
             "Creativity/Innovation": 6,
             "Teamwork/Sociability": 6,
             "Intensity/Danger": 3
-        }
+        },
+        "wiki": "Escherichia coli is a bacterium commonly found in the intestines of humans and animals. While many strains are harmless, some can cause foodborne illness or urinary tract infections.",
+        "color": "linear-gradient(135deg, #AED6F1, #5DADE2)"
     },
     "🔥    Staphylococcus aureus": {
         "title": "The Tough Gang Leader",
@@ -88,7 +100,9 @@
             "Creativity/Innovation": 0,
             "Teamwork/Sociability": 0,
             "Intensity/Danger": 6
-        }
+        },
+        "wiki": "Staphylococcus aureus is a bacterium that can cause skin infections, abscesses, and more severe conditions like pneumonia or sepsis. Some strains are resistant to antibiotics (MRSA).",
+        "color": "linear-gradient(135deg, #E74C3C, #C0392B)"
     },
     "🐺    Rabies Virus": {
         "title": "The Wild Berserker",
@@ -101,7 +115,9 @@
             "Creativity/Innovation": 3,
             "Teamwork/Sociability": 0,
             "Intensity/Danger": 6
-        }
+        },
+        "wiki": "Rabies virus is a neurotropic virus that causes fatal encephalitis in mammals. It is usually transmitted through bites from infected animals.",
+        "color": "linear-gradient(135deg, #2C2C2C, #000000)"
     },
     "💄    Clostridium botulinum": {
         "title": "The Deadly Diva",
@@ -114,7 +130,9 @@
             "Creativity/Innovation": 6,
             "Teamwork/Sociability": 0,
             "Intensity/Danger": 6
-        }
+        },
+        "wiki": "Clostridium botulinum is a bacterium that produces botulinum toxin, one of the most potent toxins known. It causes botulism, leading to paralysis if ingested or inhaled.",
+        "color": "linear-gradient(135deg, #8E44AD, #512E5F)"
     },
     "🌍    SARS-CoV-2": {
         "title": "The Unwanted Superstar",
@@ -127,7 +145,9 @@
             "Creativity/Innovation": 3,
             "Teamwork/Sociability": 6,
             "Intensity/Danger": 3
-        }
+        },
+        "wiki": "SARS-CoV-2 is the virus responsible for COVID-19, a respiratory illness. It spreads rapidly through droplets and aerosols and can range from mild to severe disease.",
+        "color": "linear-gradient(135deg, #F4D03F, #F39C12)"
     },
     "🕶️    HIV": {
         "title": "The Master Infiltrator",
@@ -140,7 +160,9 @@
             "Creativity/Innovation": 6,
             "Teamwork/Sociability": 3,
             "Intensity/Danger": 6
-        }
+        },
+        "wiki": "Human Immunodeficiency Virus (HIV) attacks the immune system and can lead to AIDS if untreated. It spreads through blood, sexual contact, and from mother to child during birth or breastfeeding.",
+        "color": "linear-gradient(135deg, #34495E, #1C2833)"
     },
     "🛡️    Deinococcus radiodurans": {
         "title": "",
@@ -153,7 +175,9 @@
             "Creativity/Innovation": 3,
             "Teamwork/Sociability": 0,
             "Intensity/Danger": 0
-        }
+        },
+        "wiki": "Deinococcus radiodurans is a bacterium renowned for its extreme resistance to radiation and environmental stress. It can survive conditions that would kill most other organisms.",
+        "color": "linear-gradient(135deg, #27AE60, #145A32)"
     },
     "🌋    Thermus aquaticus": {
         "title": "The Hothead Innovator",
@@ -166,7 +190,9 @@
             "Creativity/Innovation": 6,
             "Teamwork/Sociability": 0,
             "Intensity/Danger": 0
-        }
+        },
+        "wiki": "Thermus aquaticus is a heat-loving bacterium found in hot springs. Its enzymes, especially Taq polymerase, are widely used in PCR to amplify DNA.",
+        "color": "linear-gradient(135deg, #E67E22, #AF601A)"
     },
     "🎯    Bacteriophage T4": {
         "title": "The Alien Warrior",
@@ -179,7 +205,9 @@
             "Creativity/Innovation": 3,
             "Teamwork/Sociability": 0,
             "Intensity/Danger": 3
-        }
+        },
+        "wiki": "Bacteriophage T4 is a virus that infects E. coli bacteria. It has a complex structure and is commonly used in molecular biology research.",
+        "color": "linear-gradient(135deg, #5D6D7E, #2E4053)"
     },
     "♟️    Mycobacterium tuberculosis": {
         "title": "The Patient Strategist",
@@ -192,6 +220,8 @@
             "Creativity/Innovation": 3,
             "Teamwork/Sociability": 3,
             "Intensity/Danger": 6
-        }
+        },
+        "wiki": "Mycobacterium tuberculosis is the bacterium that causes tuberculosis (TB). It primarily infects the lungs but can affect other parts of the body, spreading through airborne droplets.",
+        "color": "linear-gradient(135deg, #6E2C00, #4A235A)"
     }
 }

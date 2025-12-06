@@ -18,7 +18,12 @@ for trait, qs in questions.items():
 
 
 @app.route("/")
-def start():
+def home():
+    return render_template("start.html")
+
+
+@app.route("/start-quiz")
+def start_quiz():
     session["index"] = 0
     session["answers"] = {trait: 0 for trait in traits}
     return redirect(url_for("question"))
@@ -63,6 +68,7 @@ def result():
         "result.html",
         microbe=microbe,
         data=microbe_dict,
+        bg_color=microbe_dict.get("color", "#6dd5ed"),  # fallback color
     )
 
 
