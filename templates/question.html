@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Microbe Quiz</title>
+</head>
+<body>
+  <h2>Question {{ question_number }} of {{ total }}</h2>
+
+  <form method="POST">
+    <p>{{ question }}</p>
+
+    {% for letter, option in options %}
+      <label>
+        <input type="radio" name="answer" value="{{ loop.index0 }}" required>
+        {{ letter }}. {{ option }}
+      </label><br>
+    {% endfor %}
+
+    <br>
+    <button type="submit">Next</button>
+  </form>
+</body>
+</html>
