@@ -1,6 +1,15 @@
 import json
 import numpy as np
 
+TRAIT_ORDER = [
+    "Resilience",
+    "Stealth",
+    "Chaos/Disruption",
+    "Creativity/Innovation",
+    "Teamwork/Sociability",
+    "Intensity/Danger",
+]
+
 
 def load_questions() -> dict:
     """Load questions and answer options."""
@@ -28,7 +37,11 @@ def get_best_microbe_match(microbes: dict, answer: dict) -> tuple[str, dict]:
     array and returning the closes one.
     """
     # Convert answers to a NumPy array
-    answer_array = np.array(list(answer.values()))
+    answer_list = []
+    for trait in TRAIT_ORDER:
+        answer_list.append(answer[trait])
+
+    answer_array = np.array(answer_list)
 
     # Convert all personality answer sets to a 2D NumPy array
     trait_arrays = np.array([list(p["answers"].values()) for p in microbes.values()])
