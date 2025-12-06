@@ -2,7 +2,7 @@
 
 import itertools
 from collections import Counter
-from quiz import load_microbes, get_best_microbe_match
+from quiz_logic import load_microbes, get_best_microbe_match
 
 # Define the range of each element
 values = range(7)  # 0 to 6 inclusive
