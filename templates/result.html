@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Microbe Quiz</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Microbe Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body style="background: {{ bg_color }};">
 
-  <div class="quiz-container">
-    <h1>{{ microbe }}</h1>
-    <h2>{{ data.title }} {{ data.emoji }}</h2>
+    <div class="quiz-container">
+        <h1>{{ microbe }}</h1>
+        <h2>{{ data.title }} {{ data.emoji }}</h2>
 
-    <p>{{ data.personality }}</p>
-    <p>{{ data.frenemies }}</p>
+        <p>{{ data.personality }}</p>
+        <p>{{ data.frenemies }}</p>
 
-    {% if data.wiki %}
-      <p class="wiki">{{ data.wiki }}</p>
-    {% endif %}
+        {% if data.wiki %}
+        <p class="wiki">{{ data.wiki }}</p>
+        {% endif %}
 
-    <a href="/">Take the Quiz Again</a>
-  </div>
+        <a href="/">Take the Quiz Again</a>
+    </div>
 
   <div style="margin-top:20px;">
     <a href="{{ prev_url }}">⬅ Previous</a> | 
@@ -26,4 +28,5 @@
   </div>
 
 </body>
+
 </html>

@@ -1,37 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Microbe Quiz</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
-  <script>
-    function autoSubmit() {
-      document.getElementById("quiz-form").submit();
-    }
-  </script>
+<head>
+    <title>Microbe Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <script>
+        function autoSubmit() {
+            document.getElementById("quiz-form").submit();
+        }
+    </script>
 </head>
+
 <body>
 
-  <div class="quiz-container">
-    <h2>Question {{ question_number }} of {{ total }}</h2>
+    <div class="quiz-container">
+        <h2>Question {{ question_number }} of {{ total }}</h2>
 
-    <form id="quiz-form" method="POST">
-      <p>{{ question }}</p>
+        <form id="quiz-form" method="POST">
+            <p>{{ question }}</p>
 
-      {% for letter, option in options %}
-        <label class="option">
-          <input 
-            type="radio" 
-            name="answer" 
-            value="{{ loop.index0 }}" 
-            required 
-            onchange="autoSubmit()"
-          >
-          <strong>{{ letter }}.</strong> {{ option }}
-        </label>
-      {% endfor %}
-    </form>
-  </div>
+            {% for letter, option in options %}
+            <label class="option">
+                <input type="radio" name="answer" value="{{ loop.index0 }}" required onchange="autoSubmit()">
+                <strong>{{ letter }}.</strong> {{ option }}
+            </label>
+            {% endfor %}
+        </form>
+    </div>
 
 </body>
+
 </html>
