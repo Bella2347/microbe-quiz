@@ -1,20 +1,25 @@
+import string
 from flask import Flask, render_template, request, session, redirect, url_for
 from quiz_logic import load_questions, load_microbes, get_best_microbe_match
-import string
+
 
 app = Flask(__name__)
 app.secret_key = "super-secret-key"  # required for sessions
 
-questions = load_questions()
-microbes = load_microbes()
+DEBUG = False
 
-traits = list(questions.keys())
-all_questions = []
+QUESTIONS = load_questions()
+MICROBES = load_microbes()
+
+TRAITS = list(QUESTIONS.keys())
+ALL_QUESTIONS = []
 
 # Flatten questions into a list for step-by-step display
-for trait, qs in questions.items():
-    for question, options in qs.items():
-        all_questions.append({"trait": trait, "question": question, "options": options})
+for trait, qs in QUESTIONS.items():
+    for q, options in qs.items():
+        ALL_QUESTIONS.append(
+            {"trait": trait, "question": q, "options": options}
+        )
 
 
 @app.route("/")
@@ -25,35 +30,37 @@ def home():
 @app.route("/start-quiz")
 def start_quiz():
     session["index"] = 0
-    session["answers"] = {trait: 0 for trait in traits}
+    session["answers"] = {trait: 0 for trait in TRAITS}
     return redirect(url_for("question"))
 
 
 @app.route("/question", methods=["GET", "POST"])
 def question():
+    """Render question page and store answer."""
+
     index = session.get("index", 0)
     answers = session.get("answers", {})
 
     if request.method == "POST":
         selected = int(request.form["answer"])
-        trait = all_questions[index]["trait"]
+        trait = ALL_QUESTIONS[index]["trait"]
         answers[trait] += selected
 
         session["answers"] = answers
         session["index"] = index + 1
 
-        if session["index"] >= len(all_questions):
+        if session["index"] >= len(ALL_QUESTIONS):
             return redirect(url_for("result"))
 
         return redirect(url_for("question"))
 
-    q = all_questions[index]
+    q = ALL_QUESTIONS[index]
     answer_options = list(string.ascii_uppercase[: len(q["options"])])
 
     return render_template(
         "question.html",
         question_number=index + 1,
-        total=len(all_questions),
+        total=len(ALL_QUESTIONS),
         question=q["question"],
         options=zip(answer_options, q["options"]),
     )
@@ -61,8 +68,10 @@ def question():
 
 @app.route("/result")
 def result():
+    """Find best microbe match and show the result page for that microbe."""
+
     answers = session.get("answers")
-    microbe, microbe_dict = get_best_microbe_match(microbes, answers)
+    microbe, microbe_dict = get_best_microbe_match(MICROBES, answers)
 
     return render_template(
         "result.html",
@@ -75,14 +84,12 @@ def result():
 @app.route("/preview")
 def preview_microbes():
     """Preview all microbes on the result page one by one."""
-    # Load microbes
-    microbes = load_microbes()
 
     # Optionally, you can pick a microbe by query parameter ?microbe=…
-    microbe_names = list(microbes.keys())
+    microbe_names = list(MICROBES.keys())
     microbe_index = int(request.args.get("index", 0)) % len(microbe_names)
     microbe = microbe_names[microbe_index]
-    microbe_dict = microbes[microbe]
+    microbe_dict = MICROBES[microbe]
 
     # Background color or gradient
     bg_color = microbe_dict.get("color", "#ffffff")
@@ -102,4 +109,4 @@ def preview_microbes():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=DEBUG)
