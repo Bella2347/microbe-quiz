@@ -92,7 +92,7 @@ def preview_microbes():
     prev_index = (microbe_index - 1) % len(microbe_names)
 
     return render_template(
-        "result.html",
+        "preview.html",
         microbe=microbe,
         data=microbe_dict,
         bg_color=bg_color,
