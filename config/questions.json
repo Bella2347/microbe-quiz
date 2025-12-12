@@ -1,28 +1,28 @@
 {
     "Resilience": {
-        "When the environment turns hostile (heat, cold, chemicals, radiation), what do you do?": [
+        "When the first snow arrives, how do you handle it?": [
             "I break down almost immediately.",
-            "I struggle, but I sometimes pull through.",
-            "I usually survive, though I take some damage.",
-            "I barely notice—it takes extreme force to take me out."
+            "I struggle, but sometimes manage to pull through.",
+            "I usually survive, though I take some bumps.",
+            "I barely notice — nothing can knock me down."
         ],
-        "If someone tries to wipe you out repeatedly, how do you respond?": [
-            "One good hit is usually enough.",
-            "I might survive one or two attempts.",
-            "I’m known for bouncing back.",
-            "I’m infamous for being nearly impossible to destroy."
+        "How would you survive a playful roast or insult?": [
+            "One hit and I’m down.",
+            "I might survive a couple, but it’s rough.",
+            "I bounce back quickly.",
+            "I’m nearly impossible to take down — insults roll off me."
         ]
     },
     "Stealth": {
-        "When you first arrive at a friend's house, how obvious are you?": [
-            "Everyone notices me right away.",
-            "I cause mild, early signs.",
-            "I stay hidden for quite a while.",
+        "When you first arrive at a friend's house, how noticeable are you?": [
+            "Everyone notices me immediately.",
+            "I cause mild, early hints of my presence.",
+            "I stay under the radar most of the time.",
             "I can remain undetected for months or even years."
         ],
-        "What’s your preferred way of operating?": [
+        "At the end of a workday, how do you usually leave?": [
             "Loud, fast, and impossible to miss.",
-            "A mix of subtlety and flash.",
+            "A mix of subtlety and flair.",
             "Quiet and sneaky most of the time.",
             "Almost completely silent and unseen."
         ]
@@ -30,11 +30,11 @@
     "Chaos/Disruption": {
         "When you show up to a party, what usually happens?": [
             "Very little changes.",
-            "Small problems start to appear.",
-            "Things get seriously disrupted.",
+            "Small disruptions start to appear.",
+            "Things get seriously stirred up.",
             "Everything spirals into chaos fast."
         ],
-        "How predictable is your behavior?": [
+        "How would people describe your everyday behavior?": [
             "I’m very consistent and routine.",
             "I surprise others now and then.",
             "I’m often unpredictable.",
@@ -42,27 +42,27 @@
         ]
     },
     "Creativity/Innovation": {
-        "How unique are your abilities?": [
-            "I’m pretty basic—nothing flashy.",
+        "How would you describe your skill set?": [
+            "I’m pretty basic — nothing flashy.",
             "I’ve got a few interesting tricks.",
             "I’m known for specialized talents.",
             "My abilities are truly one-of-a-kind."
         ],
-        "How often do others study or use you for your special features?": [
+        "How often do people notice or comment on your abilities?": [
             "Almost never.",
             "Occasionally.",
             "Frequently.",
-            "Constantly—I’m famous for what I can do."
+            "Constantly — I’m famous for what I can do."
         ]
     },
     "Teamwork/Sociability": {
         "How do you feel about working with others?": [
             "I mostly operate solo.",
-            "I sometimes collaborate.",
-            "I often depend on group interactions.",
-            "I thrive on partnerships and cooperation."
+            "I collaborate sometimes… usually by accident.",
+            "I need the group like coffee needs cream.",
+            "I’m basically powered by teamwork. No team, no me."
         ],
-        "How important are hosts, communities, or partners to your success?": [
+        "How much do you rely on others to thrive?": [
             "I don’t really need anyone.",
             "I benefit a little from others.",
             "I strongly depend on relationships.",
@@ -76,7 +76,7 @@
             "Very dangerous.",
             "Among the most dangerous known."
         ],
-        "When you attack, the impact is…": [
+        "How intense are the problems you cause when things go wrong?": [
             "Easy to control and limited.",
             "Noticeable but manageable.",
             "Severe and difficult to stop.",
