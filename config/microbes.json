@@ -2,7 +2,7 @@
     "Vibrio fischeri": {
         "title": "The Glowing Socialite",
         "emoji": "✨",
-        "personality": "You are extremely creative and thrive on deep cooperation with others. You’re not built for chaos or danger—instead, your strength comes from connection, harmony, and shining alongside partners. You do your best work when you’re part of a team.",
+        "personality": "You are extremely creative and thrive on deep cooperation with others. You’re not built for chaos or danger — instead, your strength comes from connection, harmony, and shining alongside partners. You do your best work when you’re part of a team.",
         "frenemies": "You absolutely adore Streptomyces coelicolor for their shared artistic sparkle and constantly invite SARS-CoV-2 to the party for the drama. You cannot stand Clostridium botulinum, whose deadly diva energy completely ruins your glow.",
         "answers": {
             "Resilience": 3,
@@ -18,7 +18,7 @@
     "Streptococcus pyogenes": {
         "title": "The Sneaky Troublemaker",
         "emoji": "🐍",
-        "personality": "You are highly stealthy and explosively chaotic, catching others off guard with how quickly situations can spiral around you. You don’t rely on creativity—your power comes from raw disruption and intense impact. When you act, things escalate fast.",
+        "personality": "You are highly stealthy and explosively chaotic, catching others off guard with how quickly situations can spiral around you. You don’t rely on creativity — your power comes from raw disruption and intense impact. When you act, things escalate fast.",
         "frenemies": "You and Salmonella are constant partners in crime, whispering chaos into existence. You secretly envy Streptomyces coelicolor, whose calm creativity feels like a personal attack on your messy energy.",
         "answers": {
             "Resilience": 3,
@@ -98,7 +98,7 @@
     "Staphylococcus aureus": {
         "title": "The Tough Gang Leader",
         "emoji": "💪",
-        "personality": "You are tough, aggressive, and disruptive. You don’t rely on subtlety or creativity—you push forward through pressure and resistance. You’re difficult to stop and thrive in conflict-heavy environments.",
+        "personality": "You are tough, aggressive, and disruptive. You don’t rely on subtlety or creativity — you push forward through pressure and resistance. You’re difficult to stop and thrive in conflict-heavy environments.",
         "frenemies": "You hang out with Salmonella and Rabies like a menace trio that terrifies everyone else. You and Streptomyces coelicolor are bitter enemies locked in an eternal antibiotic-versus-resistance rivalry.",
         "answers": {
             "Resilience": 6,
@@ -130,7 +130,7 @@
     "Clostridium botulinum": {
         "title": "The Deadly Diva",
         "emoji": "💋",
-        "personality": "You are highly dangerous and creatively lethal. You don’t work with others and don’t seek attention—but when you act, the consequences are extreme. Your power lies in precision, silence, and absolute potency.",
+        "personality": "You are highly dangerous and creatively lethal. You don’t work with others and don’t seek attention — but when you act, the consequences are extreme. Your power lies in precision, silence, and absolute potency.",
         "frenemies": "You tolerate Staphylococcus aureus and Rabies as fellow agents of destruction. You absolutely cannot stand bubbly overachievers like Vibrio fischeri, whose cheer feels offensive to your deadly elegance.",
         "answers": {
             "Resilience": 3,
@@ -178,7 +178,7 @@
     "Deinococcus radiodurans": {
         "title": "The Indestructible Survivor",
         "emoji": "🛡️",
-        "personality": "You are defined almost entirely by your unbelievable resilience. You don’t rely on stealth, chaos, or teamwork—you simply endure anything thrown at you. You are quiet, steady, and nearly impossible to break.",
+        "personality": "You are defined almost entirely by your unbelievable resilience. You don’t rely on stealth, chaos, or teamwork — you simply endure anything thrown at you. You are quiet, steady, and nearly impossible to break.",
         "frenemies": "You earn silent respect from Thermus aquaticus and Bacteriophage T4 as a fellow unkillable force. You are deeply unimpressed by Salmonella’s constant attempts at drama.",
         "answers": {
             "Resilience": 6,
