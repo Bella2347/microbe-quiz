@@ -223,9 +223,9 @@
         "wiki": "Bacteriophage T4 is a virus that infects E. coli bacteria. It has a complex structure and is commonly used in molecular biology research.",
         "color": "linear-gradient(135deg, #5D6D7E, #2E4053)"
     },
-    "♟️    Mycobacterium tuberculosis": {
+    "Mycobacterium tuberculosis": {
         "title": "The Patient Strategist",
-        "emoji": "",
+        "emoji": "♟️",
         "personality": "You are exceptionally resilient, incredibly stealthy, and intensely dangerous. You play the long game, spreading quietly and disrupting slowly over time. You are patient, calculating, and nearly impossible to fully eliminate.",
         "frenemies": "You form a terrifying strategic alliance with HIV, quietly reshaping entire systems together. You find Influenza’s flashy chaos childish and beneath your calculated control.",
         "answers": {
