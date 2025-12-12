@@ -1,86 +1,86 @@
 {
     "Resilience": {
         "When the first snow arrives, how do you handle it?": [
-            "I break down almost immediately.",
-            "I struggle, but sometimes manage to pull through.",
-            "I usually survive, though I take some bumps.",
-            "I barely notice — nothing can knock me down."
+            "I get stuck in a snow pile immediately.",
+            "I wobble around like a penguin on ice, but sometimes make it home.",
+            "I wobble around but march on like a frostbitten champion.",
+            "I barely notice — I’m basically invincible."
         ],
         "How would you survive a playful roast or insult?": [
-            "One hit and I’m down.",
-            "I might survive a couple, but it’s rough.",
-            "I bounce back quickly.",
-            "I’m nearly impossible to take down — insults roll off me."
+            "One jab and I’m a puddle of embarrassment.",
+            "I stumble a bit, but might survive a couple hits.",
+            "I bounce back like a human rubber ball.",
+            "I laugh, clap, and then roast everyone back — untouchable."
         ]
     },
     "Stealth": {
         "When you first arrive at a friend's house, how noticeable are you?": [
-            "Everyone notices me immediately.",
-            "I cause mild, early hints of my presence.",
-            "I stay under the radar most of the time.",
-            "I can remain undetected for months or even years."
+            "I announce my arrival like a marching band.",
+            "I make a tiny ripple, like a pebble in a pond.",
+            "I sneak in like a ninja avoiding laser beams.",
+            "I’m basically a ghost — undetected for months or even years."
         ],
         "At the end of a workday, how do you usually leave?": [
-            "Loud, fast, and impossible to miss.",
-            "A mix of subtlety and flair.",
-            "Quiet and sneaky most of the time.",
-            "Almost completely silent and unseen."
+            "I storm out like a celebrity paparazzi can’t miss.",
+            "I mix subtlety with flair — a dramatic ninja exit.",
+            "I tiptoe quietly like a cat on velvet paws.",
+            "I vanish without a trace — the Houdini of exits."
         ]
     },
     "Chaos/Disruption": {
         "When you show up to a party, what usually happens?": [
-            "Very little changes.",
-            "Small disruptions start to appear.",
-            "Things get seriously stirred up.",
-            "Everything spirals into chaos fast."
+            "Nothing much — I glide in like a calm breeze through a quiet room.",
+            "Small chaos brews — like a whoopee cushion at a fancy dinner.",
+            "Stuff blows up — figuratively, mostly.",
+            "Everything collapses into glorious, epic chaos."
         ],
         "How would people describe your everyday behavior?": [
-            "I’m very consistent and routine.",
-            "I surprise others now and then.",
-            "I’m often unpredictable.",
-            "No one ever knows what I’ll do next."
+            "Predictable as a microwave beep.",
+            "Surprising now and then — like socks in the fridge.",
+            "Often unpredictable — like a cat on espresso.",
+            "No one has any idea what I’ll do next — chaos incarnated."
         ]
     },
     "Creativity/Innovation": {
         "How would you describe your skill set?": [
-            "I’m pretty basic — nothing flashy.",
-            "I’ve got a few interesting tricks.",
-            "I’m known for specialized talents.",
-            "My abilities are truly one-of-a-kind."
+            "Basic but reliable — like plain toast.",
+            "I’ve got a few tricks up my sleeve — nothing illegal, probably.",
+            "Specialized talents — people gasp and then ask me to show off.",
+            "One-of-a-kind abilities — basically a superhero origin story in real life."
         ],
         "How often do people notice or comment on your abilities?": [
-            "Almost never.",
-            "Occasionally.",
-            "Frequently.",
-            "Constantly — I’m famous for what I can do."
+            "Almost never — I’m like a hidden Easter egg.",
+            "Occasionally — people notice and go 'huh, neat.'",
+            "Frequently — my talents get applause.",
+            "Constantly — I’m basically a legend walking among mortals."
         ]
     },
     "Teamwork/Sociability": {
         "How do you feel about working with others?": [
-            "I mostly operate solo.",
+            "I mostly operate solo — lone wolf vibes.",
             "I collaborate sometimes… usually by accident.",
             "I need the group like coffee needs cream.",
             "I’m basically powered by teamwork. No team, no me."
         ],
         "How much do you rely on others to thrive?": [
-            "I don’t really need anyone.",
-            "I benefit a little from others.",
-            "I strongly depend on relationships.",
-            "I can’t function without teamwork or a host."
+            "I don’t need anyone — I’m a one-person show.",
+            "I get a tiny boost from others — like sprinkles on a cupcake.",
+            "I strongly depend on relationships — like a student needs coffee.",
+            "I can’t function without a team — like plants and sunlight."
         ]
     },
     "Intensity/Danger": {
         "How dangerous are you considered to be?": [
-            "Mostly harmless.",
-            "Mildly risky.",
-            "Very dangerous.",
-            "Among the most dangerous known."
+            "Mostly harmless — like juggling rubber knives.",
+            "Mildly risky — like a fluffy kitten… that might scratch.",
+            "Very dangerous — handle with extreme caution.",
+            "Among the most dangerous known — proceed at your own peril."
         ],
         "How intense are the problems you cause when things go wrong?": [
-            "Easy to control and limited.",
-            "Noticeable but manageable.",
-            "Severe and difficult to stop.",
-            "Devastating and overwhelming."
+            "Easy to control — like a runaway shopping cart.",
+            "Noticeable but manageable — like a toddler with spaghetti.",
+            "Severe and hard to stop — like glitter after a craft project.",
+            "Devastating and overwhelming — like fireworks in a library."
         ]
     }
 }
