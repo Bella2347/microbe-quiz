@@ -12,6 +12,8 @@ Run as app `python app.py`
 
 ## Answer distribution
 
+In app, use /preview to view all possible answers.
+
 | Microbe | Probablity |
 | --- | --- |
 | Bacteriophage T4 | 12.37 % (14552) |
