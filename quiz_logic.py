@@ -1,3 +1,5 @@
+"""Functions for Quiz logic."""
+
 import json
 import numpy as np
 

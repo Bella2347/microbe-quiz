@@ -1,9 +1,7 @@
-"""What microbe are you Quiz!"""
+"""Run Quiz in terminal."""
 
-import json
 import os
 import string
-import numpy as np
 from quiz_logic import load_microbes, load_questions, get_best_microbe_match
 
 

@@ -1,3 +1,5 @@
+"""Run Quiz as app."""
+
 import string
 from flask import Flask, render_template, request, session, redirect, url_for
 from quiz_logic import load_questions, load_microbes, get_best_microbe_match
